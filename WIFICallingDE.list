@@ -5,10 +5,10 @@ DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 AND,((GEOIP,GB),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
 # Vodafone DE
-DOMAIN-SUFFIX,arcor-ip.de
-DOMAIN-SUFFIX,epdg.epc.drz1.vodafone-ip.de
 DOMAIN-SUFFIX,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 DOMAIN,ims.mnc002.mcc262.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.drz1.vodafone-ip.de
+DOMAIN-SUFFIX,arcor-ip.de
 DOMAIN-SUFFIX,vodafone-dns.net
 DOMAIN-SUFFIX,vodafone-ip.de
 DOMAIN-SUFFIX,vodafone.de
