@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 # 端口代理
-AND,((GEOIP,GB),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+AND,((GEOIP,DE),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
 # Vodafone DE
 DOMAIN-SUFFIX,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
