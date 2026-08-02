@@ -17,17 +17,10 @@ IP-CIDR,88.82.0.0/19,no-resolve
 IP-CIDR,88.82.11.0/24,no-resolve
 IP-CIDR,148.252.160.0/19,no-resolve
 
-# CTEXCEL UK
+# CTEXCEL UK (ee)
 DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
 IP-CIDR,31.94.0.0/16,no-resolve
 IP-CIDR,31.94.76.0/24,no-resolve
-
-# CMLink UK
-DOMAIN-SUFFIX,epdg.epc.mnc001.mcc230.pub.3gppnetwork.org
-IP-CIDR,46.68.0.0/17,no-resolve
-IP-CIDR,46.68.57.0/24,no-resolve
-IP-CIDR,46.68.58.0/24,no-resolve
-IP-CIDR,46.68.59.0/24,no-resolve
 
 # Giffgaff
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
