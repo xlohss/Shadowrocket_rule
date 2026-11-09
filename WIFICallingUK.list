@@ -1,10 +1,15 @@
-# 适用于: Vodafone UK, EE, Giffgaff, CTEXCEL, 3UK, VOXI
+# 适用于: Vodafone UK, EE, Giffgaff, CTExvel,CMlink, 3UK, VOXI
 
 # 地区检测
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 # 端口代理
 AND,((GEOIP,GB),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+
+# CTExcel CMlink UK
+DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
+IP-CIDR,31.94.76.0/24,no-resolve
+
 
 # Vodafone UK
 DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
@@ -17,9 +22,6 @@ IP-CIDR,88.82.0.0/19,no-resolve
 IP-CIDR,88.82.11.0/24,no-resolve
 IP-CIDR,148.252.160.0/19,no-resolve
 
-# CTEXCEL UK
-DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
-IP-CIDR,31.94.76.0/24,no-resolve
 
 # Giffgaff
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
