@@ -8,8 +8,8 @@ AND,((GEOIP,GB),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
 # CTExcel CMlink UK
 DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc033.mcc234.jibecloud.net
 IP-CIDR,31.94.0.0/16,no-resolve
-IP-CIDR,31.94.76.0/24,no-resolve
 
 
 # Vodafone UK
